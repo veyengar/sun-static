@@ -12,11 +12,13 @@ If you have Git installed on your computer, you can access it from the command-l
 + **local repository**: the one hosted in the file system on your computer. This is where your files that you are coding in are stored. You interact with this one mainly via the **add** and **commit** commands. 
 
 ### Git commands (important/basic ones, there are lots more):
-1. **git add**: use this command to add files you edited to the set you will send to the remote. Sending all the files each time is unecessary. We just want all the files that have been changed. To do this, use **git add --all**. Do this first when preparing to send changes 
+1. **git status**: use this command a lot. This tells you the status of your local repository, i.e. how many commits behind or ahead you are relative to the remote. Before beginnning work, its a good idea to use this command to figure out if you need to pull code that others have worked on since you last pulled. 
 
-2. **git commit**: use this command to tell Git you have finished collecting the files you want to send, and they are ready to send. Write a message that will accompany your commit like: **git commit -m "add feature X"**. You want your commit messages to be concise and informative. By convention, they are written in the present tense and don't have periods at the end. Do this second when preparing to push.
+2. **git add**: use this command to add files you edited to the set you will send to the remote. Sending all the files each time is unecessary. We just want all the files that have been changed. To do this, use **git add --all**. Do this first when preparing to send changes 
 
-3. **git pull**: use this command to get code from the remote repository. Git won't let you push before you pull so do this 3rd. You may have conflicts with the code you pull. The easiest way to resolve these issues, called **merge conflicts**, is to compare your code to the code you pulled and decide which you want to keep. Remove the duplicate or unecessary code, and commit again. 
+3. **git commit**: use this command to tell Git you have finished collecting the files you want to send, and they are ready to send. Write a message that will accompany your commit like: **git commit -m "add feature X"**. You want your commit messages to be concise and informative. By convention, they are written in the present tense and don't have periods at the end. Do this second when preparing to push.
 
-4. **git push**: This sends your work to the remote repository so other people can pull it. Do this last. 
+4. **git pull**: use this command to get code from the remote repository. Git won't let you push before you pull so do this 3rd. You may have conflicts with the code you pull. The easiest way to resolve these issues, called **merge conflicts**, is to compare your code to the code you pulled and decide which you want to keep. Remove the duplicate or unecessary code, and commit again. 
+
+5. **git push**: This sends your work to the remote repository so other people can pull it. Do this last. 
 
