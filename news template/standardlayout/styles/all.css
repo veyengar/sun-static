@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#cover_photo {
+  width: 100%;
+}
+
+#photo_caption {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 0;
+  margin-left: 20px;
+  float: left;
+}
+
+#photo_photographer {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 0;
+  margin-right: 20px;
+  float: right;
+  text-transform: uppercase;
+}
+
+#photographer_bar {
+  font-style: normal;
+}
+
+.text {
+  width: 54%;
+  margin-top: 50px;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+
+#headline {
+  text-align: left;
+  font-size: 40px;
+}
+
+#byline {
+  float: left;
+  margin-top: 0;
+}
+
+#author {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#date {
+  float: right;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+/* .separator {
+  margin-top: 5px;
+} */
+
+#article_body {
+  float: left;
+}
