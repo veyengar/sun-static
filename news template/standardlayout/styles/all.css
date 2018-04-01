@@ -1,21 +1,22 @@
 html, body {
   margin: 0;
   padding: 0;
+  color: #424242;
 }
 
 #cover_photo {
   width: 100%;
 }
 
-#photo_caption {
-  font-size: 14px;
+.photo_caption {
+  font-size: 15px;
   font-style: italic;
   margin-top: 0;
   margin-left: 20px;
   float: left;
 }
 
-#photo_photographer {
+.photographer {
   font-size: 14px;
   font-style: italic;
   margin-top: 0;
@@ -24,7 +25,7 @@ html, body {
   text-transform: uppercase;
 }
 
-#photographer_bar {
+.photographer_bar {
   font-style: normal;
 }
 
@@ -62,4 +63,19 @@ html, body {
 
 #article_body {
   float: left;
+}
+
+.middle_image {
+  width: 100%;
+}
+
+.photographer_mid {
+  /* border: 2px solid; */
+  width: 100%;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 0;
+  margin-right: 0;
+  text-align: right;
+  text-transform: uppercase;
 }
