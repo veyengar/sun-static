@@ -8,6 +8,23 @@ html, body {
   width: 100%;
 }
 
+@media only screen and (min-width: 1300px) {
+    #cover_photo {
+	  width: 100%;
+	  position: fixed;
+	  top: 0px;
+	  z-index: -1;
+	}
+
+	.overlay{
+		background-color: #fff; 
+		position: relative;
+		top: 45em;
+		height: 100%;
+		padding-bottom: 150%;
+	}
+}
+
 .photo_caption {
   font-size: 15px;
   font-style: italic;
