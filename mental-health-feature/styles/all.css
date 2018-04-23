@@ -1,3 +1,65 @@
+/* individual article styling */
+
+/* horizontal banner version */
+/* html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#article_banner {
+  width: 100%;
+}
+
+#article_title, #article_author {
+  text-align: center;
+}
+
+.article_body {
+  width: 50%;
+  margin-left: 25%;
+} */
+
+/* vertical banner version */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#article_banner {
+  width: 39%;
+  float: left;
+  position: fixed;
+}
+
+.article_text {
+  float: left;
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#article_title, #article_author {
+  text-align: left;
+  margin-left: 13%;
+}
+
+#article_author {
+  font-size: 15px;
+}
+
+/* #article_title {
+  margin-top: 10%;
+} */
+
+.article_body {
+  width: 90%;
+  margin-left: 13%;
+}
+
+/* mobile homepage styling */
+
 .category-container {
   width: 80%;
   margin: 30px auto;
