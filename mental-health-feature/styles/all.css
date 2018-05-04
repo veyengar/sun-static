@@ -1,7 +1,7 @@
 /* individual article styling */
 
 /* horizontal banner version */
-/* html, body {
+html, body {
   margin: 0;
   padding: 0;
 }
@@ -17,7 +17,7 @@
 .article_body {
   width: 50%;
   margin-left: 25%;
-} */
+}
 
 /* panel page styling */
 #panel_body {
@@ -76,7 +76,7 @@
 
 /* vertical banner version */
 
-html, body {
+/* html, body {
   margin: 0;
   padding: 0;
 }
@@ -108,10 +108,10 @@ html, body {
   margin-top: 10%;
 } */
 
-.article_body {
+/* .article_body {
   width: 90%;
   margin-left: 13%;
-}
+} */ 
 
 /* mobile homepage styling */
 
