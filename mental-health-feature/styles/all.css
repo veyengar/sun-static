@@ -134,7 +134,7 @@ html, body {
 
 .category-title {
   position: absolute;
-  left: 15%;
+  left: 5%;
   top: 20%;
   transform: translateY(-50%);
   color: black;
@@ -142,8 +142,9 @@ html, body {
 
 .panel_description-mobile {
   position: absolute;
-  left: 15%;
+  left: 5%;
   top: 40%;
+  margin-right: 5px;
   /* transform: translate(-50%, -50%); */
   color: black;
   z-index: 100;
