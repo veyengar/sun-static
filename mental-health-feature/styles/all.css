@@ -56,18 +56,21 @@ html, body {
 
 .panel_p {
   position: absolute;
-  top: 24%;
+  top: 22%;
   left: 42%;
   transform: translate(-50%, -50%);
   font-size: larger;
+  border-bottom: 2px solid black;
+  border-bottom-width: 40%;
 }
 
 .panel_title {
   position: absolute;
-  top: 30%;
-  left: 36.5%;
+  top: 29%;
+  left: 34.5%;
   transform: translate(-50%, -50%);
-  font-size: 28px;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 .panel_description {
@@ -146,7 +149,7 @@ html, body {
 /* .article_body {
   width: 90%;
   margin-left: 13%;
-} */ 
+} */
 
 /* mobile homepage styling */
 
