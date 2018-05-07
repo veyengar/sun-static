@@ -114,6 +114,7 @@ html, body {
 }
 
 .category-container {
+  display: block;
   width: 95%;
   margin: auto;
   height: 300px;
@@ -123,6 +124,10 @@ html, body {
   background-size: cover;
   background-position: center;
   background-color: black;
+}
+
+.category-container:hover > .gradient-cover {
+  background-color: rgba(200, 200, 200, .1)!important;
 }
 
 .gradient-cover {
