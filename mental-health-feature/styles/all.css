@@ -57,16 +57,16 @@ html, body {
 .panel_p {
   position: absolute;
   top: 24%;
-  left: 42%;
-  transform: translate(-50%, -50%);
+  right: 53%;
+  transform: translateY(-50%);
   font-size: larger;
 }
 
 .panel_title {
   position: absolute;
   top: 30%;
-  left: 36.5%;
-  transform: translate(-50%, -50%);
+  right: 53%;
+  transform: translateY(-50%);
   font-size: 28px;
 }
 
