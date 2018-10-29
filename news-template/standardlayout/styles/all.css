@@ -5,7 +5,13 @@ html, body {
 }
 
 #cover_photo {
-  width: 100%;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -17,7 +23,7 @@ html, body {
 	}
 
 	.overlay{
-		background-color: #fff; 
+		background-color: #fff;
 		position: relative;
 		top: 45em;
 		height: 100%;
