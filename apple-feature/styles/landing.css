@@ -8,6 +8,28 @@
   font-size: 20px;
   font-style: italic;
 }
-#banner-image {
+
+#banner-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100px;
     background-color:#a00000;
+}
+
+#banner-image {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+body {
+    margin: 0;
+}
+
+#story-body {
+    margin: 30px 150px;
 }
