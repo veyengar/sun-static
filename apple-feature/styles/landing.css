@@ -1,3 +1,7 @@
+p {
+  font-family: "Arial";
+}
+
 .section-title {
   font-weight: bold;
 }
@@ -7,6 +11,26 @@
   color: red;
   font-size: 20px;
   font-style: italic;
+  font-weight: bold;
+}
+
+.photo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-container > div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.photo-container:last-child {
+  margin-right: 0px;
+}
+
+.photo-container > div > img {
+  width: 100%;
 }
 
 #banner-container {
