@@ -14,22 +14,22 @@ p {
   font-weight: bold;
 }
 
-#tree-photo-container {
+.photo-container {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
 
-#tree-photo-container > div {
+.photo-container > div {
   flex: 1;
   margin-right: 20px;
 }
 
-#tree-photo-container:last-child {
+.photo-container:last-child {
   margin-right: 0px;
 }
 
-#tree-photo-container > div > img {
+.photo-container > div > img {
   width: 100%;
 }
 #banner-image {
