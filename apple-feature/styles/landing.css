@@ -2,6 +2,13 @@ p {
   font-family: "Arial";
 }
 
+h1 {
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
 .section-title {
   font-weight: bold;
 }
@@ -41,6 +48,15 @@ p {
     background-color:#a00000;
 }
 
+#footer-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    background-color:#a00000;
+}
+
 #banner-image {
     display: block;
     margin: auto;
@@ -55,5 +71,5 @@ body {
 }
 
 #story-body {
-    margin: 30px 150px;
+    margin: 30px 350px;
 }
