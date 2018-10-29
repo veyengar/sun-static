@@ -1,0 +1,10 @@
+.section-title {
+  font-weight: bold;
+}
+
+.special-quote {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  font-style: italic;
+}
