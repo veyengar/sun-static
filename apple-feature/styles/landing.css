@@ -32,3 +32,6 @@ p {
 #tree-photo-container > div > img {
   width: 100%;
 }
+#banner-image {
+    background-color:#a00000;
+}
