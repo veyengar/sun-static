@@ -2,16 +2,17 @@ html, body {
   margin: 0;
   padding: 0;
   color: #424242;
+  background-color: white;
+  height: 100%;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Noto Sans SC', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
-#cover_photo {
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+#cover {
+  background-image: url(../images/pearl-background.jpg);
+  height: 100%;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -23,7 +24,7 @@ html, body {
 	}
 
 	.overlay{
-		background-color: #fff;
+		background-color: #ffffff;
 		position: relative;
 		top: 45em;
 		height: 100%;
@@ -32,11 +33,20 @@ html, body {
 }
 
 .photo_caption {
-  font-size: 15px;
-  font-style: italic;
+  font-size: 26px;
   margin-top: 0;
-  margin-left: 20px;
   float: left;
+  text-transform: capitalize;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  color: #7e8181;
+  font-size: 12px;
+  font-weight: bolder;
 }
 
 .photographer {
@@ -53,19 +63,38 @@ html, body {
 }
 
 .text {
-  width: 54%;
-  margin-top: 50px;
-  margin-left: 23%;
-  margin-right: 23%;
+  /* margin-left: 400px; */
+  /* margin-right: 400px; */
+  margin-top: 100px;
+  /* background-color: white; */
+  font-size: 18px;
+}
+
+.article-paragraph {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.headline-container {
+  width: 50%;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  color: #000000;
+  text-transform: uppercase;
+  /* font-family: 'Slabo 27px', serif; */
+  font-family: 'Merriweather', serif;
 }
 
 #headline {
   text-align: left;
+  font-weight: bold;
   font-size: 40px;
 }
 
 #byline {
   float: left;
+  font-size: 22px;
   margin-top: 0;
 }
 
@@ -80,16 +109,94 @@ html, body {
   margin-top: 0;
 }
 
-/* .separator {
-  margin-top: 5px;
-} */
-
 #article_body {
   float: left;
 }
 
 .middle_image {
   width: 100%;
+}
+
+.pquote {
+  float: right;
+  width: 200px;
+  color: #030;
+  font-size: 26px;
+  line-height: 0.9;
+  font-style: italic;
+  padding: 25px;
+}
+
+.quote-left {
+  float: left;
+}
+
+blockquote {
+  margin: 0; /* gets rid of the default blockquote margin */
+}
+
+.pquote p:first-letter {
+  font-size: 39px;
+  font-weight: bold;
+}
+
+.full_image_feature {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.interview-profiles {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 600px;
+  border: 2px solid black;
+}
+
+.interview-text {
+  padding: 20%;
+}
+
+.interview-content {
+  width: 50%;
+  height: 100%;
+  float: right;
+  /* background-color: gray; */
+}
+
+.interview-profile {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.profile-float {
+  float: left;
+}
+
+.profile-img {
+  width: 99%;
+  height: 99%;
+}
+
+.interviewee {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+}
+
+.full_image {
+  width: 100%;
+  height: 450px;
+}
+
+.article-paragraph {
+  position: relative;
+}
+
+.relative-pos {
+  position: relative;
 }
 
 .photographer_mid {
