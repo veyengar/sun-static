@@ -154,6 +154,49 @@ header {
   border-bottom: 100vh solid #b31b1b;
 }
 
+#hand-phone-img {
+    position: absolute;
+  right: 60%;
+/*  transform: translateY(-50%);*/
+  height: 85%;
+}
+
+.bottom-right {
+    position: absolute;
+    right: -20%;
+}
+
+.bottom-txt {
+    font-size: 4vw;
+    font-family: "Roboto";
+}
+
+#bottom-txt-1{
+    background-color:#b31b1b;
+    padding-left: 5%;
+    color: white;
+}
+
+#bottom-txt-2 {
+    color: #b31b1b;
+    padding-left: 5%;
+}
+
+#bottom-sun-logo {
+    width: 60%;
+    padding-left: 5%;
+}
+
+#app-logo {
+    width: 5%;
+    padding-left: 5%;
+}
+
+#app-store-img-2 {
+    height: 20%;
+}
+
+
 @media screen and (max-width: 800px) {
   header {
    height: auto;
