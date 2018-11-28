@@ -110,22 +110,40 @@ header {
     right: 86%;
 }
 
-.background-shape-right {
+.background-shape {
   position: absolute;
-  border-bottom: 100vh solid rgb(199, 28, 28);
   border-left: 50vh solid transparent;
   border-right: 50vh solid transparent;
   height: 0;
-  left: 20%;
   width: 100%;
 }
 
-.background-shape-left {
-  position: absolute;
+.shape-right {
+  left: 20%;
   border-bottom: 100vh solid rgb(199, 28, 28);
-  border-left: 50vh solid transparent;
-  border-right: 50vh solid transparent;
-  height: 0;
+}
+
+.shape-left {
   right: 20%;
-  width: 100%;
+  border-bottom: 100vh solid rgb(199, 28, 28);
+}
+
+.shape-right-middle {
+  left: 22.5%;
+  border-bottom: 100vh solid white;
+}
+
+.shape-left-middle {
+  right: 22.5%;
+  border-bottom: 100vh solid white;
+}
+
+.shape-right-outer {
+  left: 25%;
+  border-bottom: 100vh solid rgb(199, 28, 28);
+}
+
+.shape-left-outer {
+  right: 25%;
+  border-bottom: 100vh solid rgb(199, 28, 28);
 }
