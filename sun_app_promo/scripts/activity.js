@@ -51,7 +51,8 @@ $(document).ready(function(){
         $(this).fadeIn("slow");
     });
     $(getMostVisible($('.section-container'))).find('.section-text-l').each(function(index) {
-      $(this).animate({ left: "10%", opacity: '1'}, 500);
+//      $(this).animate({ left: "10%", opacity: '1'}, 500);
+        $(this).fadeIn("slow");
     });
   });
 

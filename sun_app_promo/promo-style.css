@@ -25,7 +25,7 @@ header {
   top: 50%;
   right: 60%;
   transform: translateY(-50%);
-  height: 75%;
+  height: 90%;
 }
 
 .promo-pic-r {
@@ -33,7 +33,7 @@ header {
   top: 50%;
   left: 60%;
   transform: translateY(-50%);
-  height: 75%;
+  height: 90%;
 }
 
 .img-text {
@@ -62,9 +62,16 @@ header {
     display: none;
 }
 
+/*
 .section-text-l {
   left: -40%;
   opacity: 0;
+}
+*/
+
+.section-text-l {
+  left: 10%;
+  display: none;
 }
 
 #bottom-image {
