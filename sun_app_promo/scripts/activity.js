@@ -1,3 +1,7 @@
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 $(document).ready(function(){
 
   // https://stackoverflow.com/questions/38360676/get-the-element-which-is-the-most-visible-on-the-screen
@@ -49,5 +53,13 @@ $(document).ready(function(){
       $(this).animate({ left: "10%", opacity: '1'}, 500);
     });
   });
+    
+  $('#down').on('click', function() {
+      $("html").scrollTop(0);
+      console.log("clicked");
+      $('html, body').animate({
+          scrollTop: $("#scroll-here").offset().top
+      }, 1000);
+    });
 
 });
