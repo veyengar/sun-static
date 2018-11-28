@@ -74,7 +74,6 @@ header {
   color: white;
 }
 
-/*
 .section-text-l {
   /* left: -40%; */
   left: 10%;
@@ -83,10 +82,12 @@ header {
 }
 */
 
+/*
 .section-text-l {
   left: 10%;
   display: none;
 }
+*/
 
 #bottom-image {
   position: relative;
@@ -153,4 +154,8 @@ header {
 .shape-left-outer {
   right: 25%;
   border-bottom: 100vh solid rgb(199, 28, 28);
+}
+
+#hand-phone-img {
+    height: 500px;
 }
