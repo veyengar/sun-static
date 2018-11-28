@@ -1,3 +1,39 @@
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Courgette/Courgette-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Merienda/Merienda-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Neucha/Neucha.ttf);
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
 html, body {
   margin: 0px;
   padding: 0px;
@@ -11,20 +47,66 @@ html, body {
   left: 0px;
   top: 0px;
   position: fixed;
-  background-color: rgb(254, 32, 32);
+  background: linear-gradient(to right, #eb3349, #f45c43);
 }
 
 #right-panel {
   height: 100%;
 }
 
+#story-title-container {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+#story-title {
+  font-family: "Neucha";
+  font-size: 110px;
+  color: white;
+}
+
+#landing-background-image {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/apple1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#landing-background-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(to right, #fffbd5, #b20a2c);
+   opacity: 0.7;
+}
+
+#apple-step-tracker {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: 18%;
+  padding-bottom: 18%;
+  background-image: url('../images/apple.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
 #step-marker-container {
   /* border: 1px solid white; */
-  height: 80%;
+  height: 70%;
   width: 80%;
   position: absolute;
   left: 10%;
-  top: 15%;
+  top: 25%;
   display: flex;
   flex-direction: column;
 }
@@ -45,6 +127,10 @@ html, body {
   background-color: white;
 }
 
+.step-outer:last-child > .step-line {
+  height: 50%;
+}
+
 .step-line-inner {
   width: 100%;
   height: 50%;
@@ -63,7 +149,7 @@ html, body {
 }
 
 .step-name {
-  font-family: "Helvetica";
+  font-family: "Neucha";
   font-size: 36px;
   color: white;
   position: absolute;
@@ -83,5 +169,5 @@ html, body {
 
 #landing-section {
   height: 100%;
-  background-color: pink;
+  background-color: white;
 }

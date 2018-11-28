@@ -4,25 +4,27 @@
 <meta charset="UTF-8">
 <title>Cornell Daily Sun App Promotion</title>
 <link rel="stylesheet" type="text/css" href="promo-style.css">
+<script src="scripts/jquery-3.2.1.min.js"></script>
+<script src="scripts/activity.js" type="text/javascript"></script>
 </head>
 
 <body>
 <!--	<img class="promo-pic-full" src="AppPic1.png" alt="app-cover-img">-->
-    <header>
+    <header class="section-container">
         <span id="down">&#8595;</span>
     </header>
-    <div class="img-text">
+    <div class="img-text section-container">
         <img class="promo-pic-l" src="DailySunGraphics/MainFeed@3x.jpg" alt="app-feed-img">
-        <h1 id="feed-txt">Your Favorite Stories. <br>Delivered to Your Feed</h1>
+        <div id="feed-txt" class="section-text section-text-r">Your Favorite Stories. <br>Delivered to Your Feed</div>
     </div>
-    <div class="img-text">
+    <div class="img-text section-container">
         <img class="promo-pic-r" src="DailySunGraphics/Bookmarks@3x.jpg" alt="app-bookmarks-img">
-        <h1 id="bookmark-txt">Bookmark Stories to Read Later</h1>
+        <div id="bookmark-txt" class="section-text section-text-l">Bookmark Stories to Read Later</div>
     </div>
-     <div class="img-text">
+     <div class="img-text section-container">
         <img class="promo-pic-l" src="DailySunGraphics/Notifications@3x.jpg" alt="app-notifs-img">
-        <h1 id="notif-txt">Customizable Notifications. <br> Never Miss a Story</h1>
+        <div id="notif-txt" class="section-text section-text-r">Customizable Notifications. <br> Never Miss a Story</div>
     </div>
-	<img class="promo-pic-full" src="AppPic2.png" alt="pic2">
+	<img id="bottom-image" class="promo-pic-full section-container" src="AppPic2.png" alt="pic2">
 </body>
 </html>
