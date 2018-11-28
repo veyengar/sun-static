@@ -52,11 +52,13 @@ header {
 }
 
 .section-text-r {
-  right: 10%;
+  right: -40%;
+  opacity: 0;
 }
 
 .section-text-l {
-  left: 10%;
+  left: -40%;
+  opacity: 0;
 }
 
 #bottom-image {

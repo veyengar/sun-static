@@ -42,8 +42,12 @@ $(document).ready(function(){
   }
 
   $(window).scroll(function(){
-    $(getMostVisible($('.section-container'))).css('background-color', 'green');
+    $(getMostVisible($('.section-container'))).find('.section-text-r').each(function(index) {
+      $(this).animate({ right: "10%", opacity: '1'}, 500);
+    });
+    $(getMostVisible($('.section-container'))).find('.section-text-l').each(function(index) {
+      $(this).animate({ left: "10%", opacity: '1'}, 500);
+    });
   });
-
 
 });
