@@ -43,7 +43,7 @@ header {
   top: 50%;
   right: 60%;
   transform: translateY(-50%);
-  height: 90%;
+  height: 75%;
 }
 
 .promo-pic-r {
@@ -51,7 +51,7 @@ header {
   top: 50%;
   left: 60%;
   transform: translateY(-50%);
-  height: 90%;
+  height: 75%;
 }
 
 .img-text {
@@ -84,14 +84,6 @@ header {
   opacity: 0;
   color: white;
 }
-*/
-
-/*
-.section-text-l {
-  left: 10%;
-  display: none;
-}
-*/
 
 #bottom-image {
   position: relative;
@@ -162,10 +154,6 @@ header {
   border-bottom: 100vh solid rgb(199, 28, 28);
 }
 
-
-#hand-phone-img {
-    height: 500px;
-
 @media screen and (max-width: 800px) {
   header {
    height: auto;
@@ -212,4 +200,5 @@ header {
   .shape-left-outer {
     right: -10%;
   }
+
 }
