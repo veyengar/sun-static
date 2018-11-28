@@ -50,9 +50,16 @@ header {
   font-size: 60px;
 }
 
+/*
 .section-text-r {
-  right: -40%;
+  right: 20%;
   opacity: 0;
+}
+*/
+
+.section-text-r {
+    right: 10%;
+    display: none;
 }
 
 .section-text-l {
