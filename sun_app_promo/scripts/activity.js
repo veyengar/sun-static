@@ -47,13 +47,15 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     $(getMostVisible($('.section-container'))).find('.section-text-r').each(function(index) {
-      $(this).animate({ right: "10%", opacity: '1'}, 500);
+//      $(this).animate({ right: "10%", opacity: '1'}, 500);
+        $(this).fadeIn("slow");
     });
     $(getMostVisible($('.section-container'))).find('.section-text-l').each(function(index) {
       $(this).animate({ left: "10%", opacity: '1'}, 500);
     });
   });
-    
+
+//https://medium.com/@dalalrohit102/full-screen-responsive-landing-page-with-html-css-jquery-e4e59c340236
   $('#down').on('click', function() {
       $("html").scrollTop(0);
       console.log("clicked");
