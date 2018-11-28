@@ -67,21 +67,16 @@ header {
   font-family: "Roboto";
 }
 
-/*
 .section-text-r {
-  right: 20%;
+  /* right: -40%; */
+  right: 10%;
   opacity: 0;
   color: white;
 }
-*/
-
-.section-text-r {
-    right: 10%;
-    display: none;
-}
 
 .section-text-l {
-  left: -40%;
+  /* left: -40%; */
+  left: 10%;
   opacity: 0;
   color: white;
 }

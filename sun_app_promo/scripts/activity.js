@@ -47,11 +47,14 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     $(getMostVisible($('.section-container'))).find('.section-text-r').each(function(index) {
-//      $(this).animate({ right: "10%", opacity: '1'}, 500);
-        $(this).fadeIn("slow");
+     // $(this).animate({ right: "10%", opacity: '1'}, 500);
+     $(this).animate({ opacity: '1'}, 500);
+        // $(this).fadeIn("slow");
     });
     $(getMostVisible($('.section-container'))).find('.section-text-l').each(function(index) {
-      $(this).animate({ left: "10%", opacity: '1'}, 500);
+      // $(this).animate({ left: "10%", opacity: '1'}, 500);
+      $(this).animate({ opacity: '1'}, 500);
+        // $(this).fadeIn("slow");
     });
   });
 
