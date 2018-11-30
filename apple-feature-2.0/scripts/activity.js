@@ -1,3 +1,6 @@
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 
 $(document).ready(function(){
 
@@ -45,13 +48,29 @@ $(document).ready(function(){
   var currentApplePos = '0%';
 
   $(window).scroll(function(){
+    var scrollTop = $(window).scrollTop();
+    var photoBottom = scrollTop - scrollTop/3
+    $("#landing-background-image-container").css('bottom', photoBottom+'px');
+    // $("#prologue-section").css('bottom', photoBottom+'px');
+
     var applePos = $(getMostVisible($('.story-section'))).data('applePos');
     if (applePos != currentApplePos) {
       currentApplePos = applePos;
-      console.log('enter');
       var linePos = $(getMostVisible($('.story-section'))).data('linePos');
-      $('#apple-step-tracker').animate({'top': applePos}, 300);
-      $('#step-line-tracker').animate({'bottom': linePos}, 300);
+      $('#step-line-tracker').stop(true, true).animate({'bottom': linePos}, 300);
+      $('#apple-step-tracker').stop(true, true).animate({'top': applePos}, 300, function() {
+        console.log($('#apple-step-tracker').offset().top)
+        var appleTop = $('#apple-step-tracker').offset().top;
+        $('.step-marker').each(function() {
+          console.log($(this).offset().top)
+          if ($(this).offset().top < appleTop) {
+            $(this).css('border', '5px solid rgb(97, 240, 119)');
+          }
+          else {
+            $(this).css('border', '5px solid white');
+          }
+        })
+      });
     }
 
   });
